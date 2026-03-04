@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cableado de Redes Industrial | Cat6A · Fibra · Racks</title>
+  <meta name="description" content="Cableado estructurado para industria y logística: Cat6A/fibra, racks, patching, pruebas y documentación." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#fff7ed',
+              100: '#ffedd5',
+              200: '#fed7aa',
+              300: '#fdba74',
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+              700: '#c2410c',
+              800: '#9a3412',
+              900: '#7c2d12'
+            }
+          },
+          boxShadow: {
+            soft: '0 14px 44px rgba(2,6,23,.14)'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+
+  <!-- Header -->
+  <div class="border-b border-white/10 bg-gradient-to-r from-slate-950 via-slate-950 to-black">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-xl bg-gradient-to-br from-brand-500 to-yellow-300"></div>
+        <div class="leading-tight">
+          <div class="text-sm font-semibold">Impulso Tecnológico</div>
+          <div class="text-xs text-slate-400">Cableado industrial · Certificación · SLA</div>
+        </div>
+      </div>
+      <div class="hidden items-center gap-3 sm:flex">
+        <a href="#alcance" class="text-sm text-slate-300 hover:text-white">Alcance</a>
+        <a href="#checklist" class="text-sm text-slate-300 hover:text-white">Checklist</a>
+        <a href="#faq" class="text-sm text-slate-300 hover:text-white">FAQ</a>
+        <a href="#contacto" class="inline-flex items-center rounded-xl bg-brand-500 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-brand-400">Pedir visita</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10">
+      <div class="absolute -top-24 left-10 h-[520px] w-[520px] rounded-full bg-brand-500/15 blur-3xl"></div>
+      <div class="absolute -bottom-40 right-0 h-[520px] w-[520px] rounded-full bg-yellow-300/10 blur-3xl"></div>
+    </div>
+
+    <div class="mx-auto grid max-w-7xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:px-8 lg:py-20">
+      <div>
+        <p class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">
+          <span class="h-2 w-2 rounded-full bg-brand-400"></span>
+          Cat6A · Fibra · Racks · Etiquetado
+        </p>
+
+        <h1 class="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl">
+          Cableado estructurado
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-yellow-200">para entornos exigentes</span>
+        </h1>
+        <p class="mt-5 text-lg text-slate-300">
+          Instalación para naves, logística y oficinas técnicas. Orden, pruebas y documentación para una red mantenible.
+        </p>
+
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a href="#contacto" class="inline-flex items-center justify-center rounded-xl bg-brand-500 px-6 py-3 text-sm font-semibold text-slate-950 shadow-soft hover:bg-brand-400">Solicitar visita técnica</a>
+          <a href="#checklist" class="inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/5 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10">Ver checklist</a>
+        </div>
+
+        <div class="mt-10 grid grid-cols-2 gap-4">
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-4"><div class="text-xs text-slate-400">Enfoque</div><div class="mt-1 text-xl font-bold">Industrial</div></div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-4"><div class="text-xs text-slate-400">Entrega</div><div class="mt-1 text-xl font-bold">Checklist</div></div>
+        </div>
+      </div>
+
+      <!-- Mockup / before-after -->
+      <div class="relative">
+        <div class="absolute -inset-6 -z-10 rounded-[2rem] bg-gradient-to-br from-brand-500/20 via-white/5 to-yellow-300/10 blur-xl"></div>
+        <div class="rounded-[2rem] border border-white/10 bg-slate-900/60 shadow-soft overflow-hidden">
+          <div class="flex items-center justify-between border-b border-white/10 bg-slate-900/80 px-4 py-3">
+            <div class="text-xs text-slate-400">Mockup: entrega técnica</div>
+            <div class="inline-flex items-center gap-2 text-xs">
+              <span class="rounded-lg bg-brand-500/15 px-2 py-1 text-brand-200">SLA-ready</span>
+              <span class="rounded-lg bg-white/10 px-2 py-1 text-slate-300">Doc</span>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="text-xs text-slate-400">Antes</div>
+                <ul class="mt-3 space-y-2 text-sm text-slate-200">
+                  <li>• Patching sin orden</li>
+                  <li>• Sin etiquetas</li>
+                  <li>• Incidencias difíciles</li>
+                </ul>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="text-xs text-slate-400">Después</div>
+                <ul class="mt-3 space-y-2 text-sm text-slate-200">
+                  <li>• Etiquetado y mapa</li>
+                  <li>• Rack organizado</li>
+                  <li>• Mantenimiento rápido</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="mt-4 rounded-2xl border border-white/10 bg-white/5 p-4">
+              <div class="text-xs text-slate-400">Imágenes (demo)</div>
+              <div class="mt-3 grid grid-cols-3 gap-2">
+                <img class="h-24 w-full rounded-xl object-cover" alt="Cableado" src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=60" />
+                <img class="h-24 w-full rounded-xl object-cover" alt="Rack" src="https://images.unsplash.com/photo-1551703599-6b3e8379aa8f?auto=format&fit=crop&w=800&q=60" />
+                <img class="h-24 w-full rounded-xl object-cover" alt="Industria" src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=800&q=60" />
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scope -->
+  <section id="alcance" class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+    <div class="max-w-2xl">
+      <h2 class="text-3xl font-extrabold tracking-tight">Alcance típico</h2>
+      <p class="mt-4 text-slate-300">Adaptable según metros, alturas, canalización y normativa.</p>
+    </div>
+
+    <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6"><div class="text-sm font-semibold">Canalización</div><p class="mt-2 text-sm text-slate-300">Bandeja, canaleta, tubo y pasos entre zonas.</p></div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6"><div class="text-sm font-semibold">Cableado</div><p class="mt-2 text-sm text-slate-300">Cat6A para puestos + fibra para troncales si aplica.</p></div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6"><div class="text-sm font-semibold">Armario</div><p class="mt-2 text-sm text-slate-300">Rack, patch panels, organizadores y etiquetado.</p></div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6"><div class="text-sm font-semibold">PoE/WiFi</div><p class="mt-2 text-sm text-slate-300">Puntos para APs/cámaras/telefonía.</p></div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6"><div class="text-sm font-semibold">Pruebas</div><p class="mt-2 text-sm text-slate-300">Continuidad, pares y checklist de entrega.</p></div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6"><div class="text-sm font-semibold">Documentación</div><p class="mt-2 text-sm text-slate-300">Mapa, numeración y recomendaciones.</p></div>
+    </div>
+  </section>
+
+  <!-- Checklist -->
+  <section id="checklist" class="border-y border-white/10 bg-black/20">
+    <div class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-extrabold tracking-tight">Checklist de entrega (ejemplo)</h2>
+        <p class="mt-4 text-slate-300">Perfecto para vender “calidad” sin entrar en tecnicismos.</p>
+      </div>
+
+      <div class="mt-10 grid gap-6 lg:grid-cols-2">
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+          <div class="font-semibold">Rack</div>
+          <ul class="mt-3 space-y-2 text-sm text-slate-300">
+            <li>• Patch panels numerados</li>
+            <li>• Organización y latiguillos a medida</li>
+            <li>• Etiquetas legibles</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+          <div class="font-semibold">Puestos</div>
+          <ul class="mt-3 space-y-2 text-sm text-slate-300">
+            <li>• Rosetas instaladas y probadas</li>
+            <li>• Mapa de puntos</li>
+            <li>• Recomendaciones de ampliación</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+    <div class="max-w-2xl">
+      <h2 class="text-3xl font-extrabold tracking-tight">FAQ</h2>
+    </div>
+    <div class="mt-10 grid gap-6 lg:grid-cols-2">
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6"><div class="font-semibold">¿Podéis trabajar con producción en marcha?</div><p class="mt-2 text-sm text-slate-300">Sí: planificamos por zonas y ventanas para minimizar impacto.</p></div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6"><div class="font-semibold">¿Incluye materiales?</div><p class="mt-2 text-sm text-slate-300">Según paquete. Podemos incluir todo o trabajar con material del cliente.</p></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contacto" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10">
+      <div class="absolute -top-40 left-0 h-[480px] w-[480px] rounded-full bg-brand-500/15 blur-3xl"></div>
+      <div class="absolute -bottom-40 right-0 h-[480px] w-[480px] rounded-full bg-yellow-300/10 blur-3xl"></div>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+      <div class="grid gap-8 rounded-3xl border border-white/10 bg-white/5 p-8 shadow-soft lg:grid-cols-2 lg:p-12">
+        <div>
+          <h2 class="text-3xl font-extrabold tracking-tight">¿Te pasamos una propuesta?</h2>
+          <p class="mt-4 text-slate-300">Demo. Lo conectamos a Odoo Forms/CRM cuando toque.</p>
+        </div>
+        <form class="rounded-2xl border border-white/10 bg-slate-950/30 p-6">
+          <div class="grid gap-4">
+            <div><label class="text-xs text-slate-400">Nombre</label><input class="mt-1 w-full rounded-xl border border-white/10 bg-slate-950/40 px-4 py-2 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-brand-500" placeholder="Tu nombre" /></div>
+            <div><label class="text-xs text-slate-400">Email o teléfono</label><input class="mt-1 w-full rounded-xl border border-white/10 bg-slate-950/40 px-4 py-2 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-brand-500" placeholder="nombre@empresa.com" /></div>
+            <div><label class="text-xs text-slate-400">Detalle</label><textarea rows="4" class="mt-1 w-full rounded-xl border border-white/10 bg-slate-950/40 px-4 py-2 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-brand-500" placeholder="Ej.: 30 puntos, fibra a oficinas, 2 racks..."></textarea></div>
+            <button type="button" class="inline-flex w-full items-center justify-center rounded-xl bg-brand-500 px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-brand-400">Enviar (demo)</button>
+            <p class="text-xs text-slate-500">Formulario demo.</p>
+          </div>
+        </form>
+      </div>
+
+      <footer class="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-slate-500 sm:flex-row">
+        <div>© <span id="y"></span> Impulso Tecnológico · Landing demo</div>
+        <div class="flex gap-4"><a class="hover:text-slate-300" href="#">Aviso legal</a><a class="hover:text-slate-300" href="#">Privacidad</a><a class="hover:text-slate-300" href="#">Cookies</a></div>
+      </footer>
+    </div>
+  </section>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
